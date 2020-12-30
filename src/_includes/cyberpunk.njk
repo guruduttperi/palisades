@@ -1,0 +1,157 @@
+---
+title: "Gurudutt Perichetla • Product Designer"
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFF">
+  <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, width=device-width, height=device-height, viewport-fit=cover">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/assets/css/cyberpunk.css">
+  <link rel="icon" type="image/png" href="/assets/images/iconmeme.png">
+
+  <script src="https://kit.fontawesome.com/d2e08c8e07.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <meta name="full-screen" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" background="#FFF">
+  <meta name="apple-mobile-web-app-title" content="Gurudutt">
+
+  <meta property="og:title" content="Gurudutt Perichetla">
+  <meta property="og:image" type="image/png" content="/assets/images/iconmeme.png" href="/assets/images/iconmeme.png">
+  <meta property="og:description" content="I'm an engineer turned designer focusing on making digital products more intuitive and easy to use.">
+  <meta property="og:image" content="/assets/images/gd_thumbs.png" href="/assets/images/iconmeme.png">
+  <meta name="keywords" content="User Experience, Gurudutt, Gurudutt Perichetla, Perichetla, UX Design, Research, Blockchain, Machine Learning, HTML,CSS,XML,JavaScript, Deep Learning, UI Design, Music, A R Rahman, Design, Product Design, Interaction, Georgia Tech">
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146854000-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-146854000-1');
+  </script>
+
+  <script>
+    (function() {
+      window.ldfdr = window.ldfdr || {};
+      (function(d, s, ss, fs) {
+        fs = d.getElementsByTagName(s)[0];
+
+        function ce(src) {
+          var cs = d.createElement(s);
+          cs.src = src;
+          setTimeout(function() {
+            fs.parentNode.insertBefore(cs, fs)
+          }, 1);
+        }
+        ce(ss);
+      })(document, 'script', 'https://sc.lfeeder.com/lftracker_v1_YEgkB8l6Kqz4ep3Z.js');
+    })();
+  </script>
+
+</head>
+
+<body data-aos-easing="ease" data-aos-duration="12" data-aos-delay="0">
+<!--  <a href="#" id="back-to-top" class="back-to-top" style="display: inline;">↑</a> -->
+
+  {% include "header_cyberpunk.njk" %}
+
+<!-- Contents -->
+{{ content | safe }}
+
+
+  {% include "footer.njk" %}
+
+
+  <script type="text/javascript">
+    (function() {
+      var burger = document.querySelector('.burger');
+      var nav = document.querySelector('#' + burger.dataset.target);
+      burger.addEventListener('click', function() {
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+      });
+    })();
+
+    AOS.init({});
+
+
+    function displaytext(value) {
+      text = value;
+      document.write(text);
+    }
+  </script>
+  <!--  <div class="nav-stripe"> </div> -->
+
+
+  <!-- Fades in the button when you scroll down -->
+  <script>
+    var link = document.getElementById("back-to-top");
+    var amountScrolled = 250;
+
+    window.addEventListener('scroll', function(e) {
+      if (window.pageYOffset > amountScrolled) {
+        link.classList.add('show');
+      } else {
+        link.className = 'back-to-top';
+      }
+    });
+
+    <!-- Scrolls to Top -->
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+
+      var distance = 0 - window.pageYOffset;
+      var increments = distance / (500 / 16);
+
+      function animateScroll() {
+        window.scrollBy(0, increments);
+        if (window.pageYOffset <= document.body.offsetTop) {
+          clearInterval(runAnimation);
+        }
+      };
+      // Loop the animation function
+      var runAnimation = setInterval(animateScroll, 16);
+    });
+
+    if (document.readyState == 'complete')
+    {
+        AOS.refresh();
+    }
+
+
+  </script>
+
+
+
+ <script src="https://platform.oswaldlabs.com/v1/agastya/load/guruduttperi-51855.js" async defer></script>
+  <script>
+  const agastya = new Agastya("guruduttperi-51855");
+</script>
+
+<!-- Remember to include jQuery :) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <!-- jQuery Modal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min">
+
+<script src="/assets/js/lightbox.min.js"></script>
+<script src="/assets/js/lighslider.min.js"></script>
+
+</body>
+
+</html>

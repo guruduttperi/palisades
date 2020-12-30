@@ -1,0 +1,133 @@
+@import "main.css";
+
+body{
+  background: #121212;
+  color: fafafa;
+}
+
+.title, .subtitle{
+    color: fafafa;
+}
+
+
+*, .subtitle, p a{
+
+  font-family: "archiaregular", sans-serif;
+  font-weight: 400;
+  line-height: 1.68em;
+  letter-spacing: 0rem;
+  text-rendering:optimizeLegibility;
+  -webkit-font-feature-settings: "kern" 1;
+
+
+
+}
+
+b{
+  font-family: "archiabold", sans-serif;
+    font-weight: 600;
+    text-rendering:optimizeLegibility;
+    -webkit-font-feature-settings: "kern" 1;
+
+
+}
+
+.title {
+  font-family: "archiabold", sans-serif;
+  font-weight: 600;
+  line-height: 1.68em;
+  letter-spacing: 0rem;
+  text-rendering:optimizeLegibility;
+  -webkit-font-feature-settings: "kern" 1;
+
+
+
+}
+
+
+.navbar *{
+  color:var(--white);
+  background: var(--eigen);
+}
+
+.navbar-brand{
+  color: var(--white);
+  background: var(--eigen);
+}
+
+.navbar-burger{
+color: var(--white);
+
+}
+
+.navbar-menu{
+  background-color: var(--eigen);
+  color: var(--white);
+  background: transparent;
+  backdrop-filter: blur(32px);
+}
+.navbar-item{
+  color: var(--white);
+  background-color: var(--eigen);
+  background: transparent;
+  backdrop-filter: blur(32px);
+}
+.is-active{
+      background-color: var(--eigen);
+      background: transparent;
+      backdrop-filter: blur(32px);
+}
+.navbar-end{
+ background-color: var(--eigen);
+ background: transparent;
+ backdrop-filter: blur(32px);
+}
+
+.navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover{
+  background-color: var(--eigen);
+  color: var(--droid-green););
+  border-bottom-color: var(--droid-green);;
+  background: transparent;
+  backdrop-filter: blur(32px);
+
+
+}
+
+
+
+a.navbar-item:hover{
+  color: var(--eigen);
+}
+
+a.navbar-item:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  color: var(--white);
+  background-color: var(--droid-green);;
+  visibility: hidden;
+ -webkit-transform: scale(0);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+
+
+
+}
+
+a.navbar-item:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+  transform-origin: left;
+  color: var(--white);
+
+}
+
+
+  .bkg-white{
+  background: var(--eigen);
+  color: var(--eigen);
+}
