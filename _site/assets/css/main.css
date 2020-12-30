@@ -183,9 +183,10 @@ b{
   --zaria-base: #F8F7FF;
   --squid-ink: #172B4D;
   --chorecoat: #253858;
-  --matrixbg: #121619;
+  --matrixbg: #f6f2ff;
   --coolgrey1: #f2f4f8;
-  --teal05: #8a3ffc;
+  --teal05: #6929c4;
+  --teal06: #6929c4;
 
 }
 
@@ -1348,4 +1349,36 @@ mark.aquarium{
 
 strong{
   color: var(--black);
+}
+
+
+
+
+
+.hero-grad {
+ background: linear-gradient(270deg, #e5f6ff, #edf5ff, #f6f2ff, #fff);
+   background-size: 800% 800%;
+
+   -webkit-animation: AnimationName 10s ease infinite;
+   -moz-animation: AnimationName 10s ease infinite;
+   animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+
+
 }
