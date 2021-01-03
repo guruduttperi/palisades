@@ -164,7 +164,7 @@ b{
   --spygrey: #202020;
   --ibmblue: #418CFF;
   --blueblack: #333438;
-  --gstar: rgb(250,164,130);
+  --gstar: rgb(255, 180, 131);
   --rescue: rgb(50,127,184);
   --frost: #E0E7EE;
   --showkali: rgb(252,71,62);
@@ -1356,7 +1356,8 @@ strong{
 
 
 .hero-grad {
- background: linear-gradient(270deg, #e5f6ff, #edf5ff, #f6f2ff, #fff);
+ /* background: linear-gradient(270deg, #e5f6ff, #edf5ff, #f6f2ff, #fff); */
+   background: linear-gradient(270deg, #E3FCEF, #DEEBFF, #EAE6FF, #fff);
    background-size: 800% 800%;
 
    -webkit-animation: AnimationName 10s ease infinite;
